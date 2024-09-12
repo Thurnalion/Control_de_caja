@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.nav{
+    background-color: brown;
+    width: 100%;
+    height: 5rem;
+}
+
+.ul{
+    list-style: none;
+   
+
+}
+
+.li{
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 3vh;
+    padding:  0 3vw;
+        
+}
+
+.body1{
+    background: linear-gradient(to right, #7286D3, #A0C3D2);
+}
+
+.h1{
+    font-size: 40px;
+    color: bisque;
+    margin: 3vh;
+    text-align: center;
+}
+
+.form{
+    margin-top: 1vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    gap: 1vh;
+}
+
+.formulario{
+    font-size: 18px;
+}
+
+.form .espacio{
+    width: 15vw;
+}
+
+.form .boton1{
+    width: 10vw;
+}
+
+/* login */
+
+.page{
+    background: linear-gradient(to right, #7286D3, #A0C3D2);
+}
+
+
+.form2{
+    margin-top: 4vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.form2 .texto{
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+    
+}
+
+.form2 .espacio2{
+    font-size: 21px;
+    width: 30vw;
+    height: 5vh;
+    
+}
+
+.form2 .boton2{
+    margin-top: 3vh;
+    width: 10vw;
+    height: 4vh;
+    font-size: 18px;
+   
+}
+
+.alerta{
+    color: brown;
+    margin-top: 3vh;
+    font-weight: bold;
+}
+
+
+
+/*Productos*/
+
+.tabla{
+    margin: 5vh;
+    display: flex;
+    flex-flow: row;
+}
+
+.fotos{
+    display: flex;
+    flex-flow: column;
+    gap: 7vh;
+}
+
+.imgproductos{
+    width: 10vw;
+    height: 10vh;
+}
+
+.productos2{
+    list-style: none;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    font-size: 25px;
+    display: flex;
+    flex-flow: column;
+    gap: 12vh;
+   
+}
+
+
+.precios2{
+    margin-left: 2vw;
+    margin-top: 3vh;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    gap: 12vh;
+    
+}
+
+.resultados{
+    height: 0;
+    overflow: hidden;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    gap: 12vh;
+}
+
+
+
+.btnProductos{
+    display: flex;
+    flex-flow: row;
+    margin-top: 5vh;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.boton3{
+    width: 4vw;
+    height: 3vh;
+    display: flex;
+}
+
+.resultado{
+    width: 70vw;
+    margin-left: 2vw;
+}
+
+/*presentismo*/
+
+.boton4{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 4vh 4vw;
+}
+
+.table1{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 4vh 4vw;
+    gap: 2vh
+}
+
+.rojo{
+    color: red;
+}
+
+
+

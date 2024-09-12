@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Cierre de Caja</title>
+</head>
+<body class="body1">
+    <nav class="nav">
+        <ul class="ul">
+            <li class="li"><a href="index.html">Cierre de caja</a></li>
+            <li class="li"><a href="login.html">Presentismo</a></li>
+            <li class="li"><a href="productos.html">Productos</a></li>
+
+        </ul>
+    </nav>
+
+    <h1 class="h1">Cierre de caja</h1>
+
+    <form action="" class="form">
+        
+        <label class="formulario"> Caja Inicial</label>
+        <input class="espacio1" type="number" id="caja" oninput="calculo()">
+
+        <label class="formulario"> Total Facturado</label>
+        <input class="espacio1" type="number" id="z" oninput="calculo()">
+        
+        <label class="formulario"> Empleados</label>
+        <input class="espacio1" type="number" id="empleados1" oninput="calculo()">
+
+        <label class="formulario">Egresos</label>
+        <input class="espacio1" type="number" id="egresos1" oninput="calculo()">
+
+        <label class="formulario">Cierre de Lote</label>
+        <input class="espacio1" type="number" id="cierrelote" oninput="calculo()">
+
+        <label class="formulario">Cierre de caja</label>
+        <input class="espacio1" type="number" id="resultado" oninput="calculo2()">
+        <br>        
+        <label class="formulario">Efectivo en la caja</label>
+        <input class="espacio1" type="number" id="efectivo">
+        <br>
+        <button type="button" class="boton1" onclick="calculo2()">Calcular</button>
+
+        <p class="respuestaEscrita" id="texto1">La respuesta es...</p>
+        
+    </form>
+
+
+
+
+    <script src="index.js"></script>
+    <script src="datos.json"></script>
+
+</body>
+</html>

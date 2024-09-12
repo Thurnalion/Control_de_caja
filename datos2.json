@@ -1,0 +1,19 @@
+[
+    {
+        "plato" : "tacos",
+        "receta" : "Cortar morrones, cebolla, ajo, carne en tiritas, salpimentar y agregar zumo de limón. En sartén con aceite. Agregar el ajo y el chile y sofreír unos minutos más. Agregar la carne y saltear. Por otro lado, saltear el resto de las verduras. Mezclar las dos preparaciones y rectificamos con sal y pimienta de ser necesario. Le agregamos el resto del zumo de lima o limón y el cilantro deshojado.",
+        "duracion" : 20
+    },
+
+    {
+        "plato" : "quesadillas",
+        "receta" : "Cortar media palta. Chafarla con un tenedor, aliñar con unas gotas de limón y salpimentar. Agregar a la quesadillas. Trocear el tomate en piezas pequeñas y sumar. Añadir perejil picado y un poco de salsa picante. Culminar con el queso rallado y sazonar con ajo granulado y un toque extra de pimienta. Cubrir con las otras dos tortillas y presionar. Calentar con aceite de oliva en una sartén antiadherente y cocinar una quesadilla cada vez a fuego medio. Calentar unos 5 minutos, vigilando que no se quemen, girar y dorar por el otro lado. Cortar en cuatro partes y servir con salsa al gusto.",
+        "duracion" : 10
+    },
+
+    {
+        "plato" : "burritos",
+        "receta" : "Cocinar carne, cebolla en pedazos, dientes de ajo y sal al gusto. Enfriar y desmenuzar con dos tenedores. La cebolla picada se saltea un poco, agregar ají y tomate, todo esto se cocina un rato y luego le sumas la carne desmenuzada junto con sal a gusto. ",
+        "duracion" : 15
+    }
+]

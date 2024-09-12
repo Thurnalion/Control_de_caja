@@ -1,0 +1,30 @@
+[
+    {   
+        "plato" : "tacos",
+        "cocción": "horno",
+        "duración": 20,
+        "ingredientes": ["tortilla de maiz","carne","mozarella","lechuga","crema acida"],
+        "valor": 1200
+    },
+
+    {
+        "plato" : "quesadillas",
+        "cocción": "plancha",
+        "duración": 10,
+        "ingredientes": ["tortilla de trigo","pollo","mozarella","guacamole","crema acida"],
+        "valor": 1300
+    }, 
+
+    {   
+        "plato" : "burritos",
+        "cocción": "horno",
+        "duración": 15,
+        "ingredientes": ["tortilla de trigo","carne","mozarella","porotos","crema acida"],
+        "valor": 1500
+    }
+
+]
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Productos</title>
+</head>
+<body class="body1">
+    <nav class="nav">
+        <ul class="ul">
+            <li class="li"><a href="index.html">Cierre de caja</a></li>
+            <li class="li"><a href="login.html">Presentismo</a></li>
+            <li class="li"><a href="productos.html">Productos</a></li>
+        </ul>
+    </nav>
+
+    <div class="btnProductos">
+        <button type="button" class="boton3" onclick="cargarJSON()">Receta</button>
+    </div>
+
+    <div class="tabla">
+
+        <div class="fotos">
+            <img class="imgproductos" src="./fotos/taco.PNG" alt="">
+            <img class="imgproductos" src="./fotos/quesadilla.PNG" alt="">
+            <img class="imgproductos" src="./fotos/burrito.PNG" alt="">
+        </div>
+
+        <div class="productos">
+            <ul class="productos2">
+                <li>Tacos</li>
+                <li>Quesadillas</li>
+                <li>Burritos</li>
+            </ul>
+        </div>
+
+        <div class="precios">
+            <ul class="precios2">
+                <li class="espacio3" id="tacos">1200</li>
+                <li class="espacio3" id="quesadillas">1300</li>
+                <li class="espacio3" id="burritos">1500</li>
+            </ul>
+        </div>
+
+        <div class="resultados" id="resultado"></div>
+    </div>
+
+
+    <script src="productos.js"></script>
+</body>
+</html>
